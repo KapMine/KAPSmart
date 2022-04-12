@@ -18,14 +18,14 @@ contract GoMiningToken is Ownable, Pausable, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
 
-    string private _name = "GoMining Token";
-    string private _symbol = "GMT";
-    uint8 private _decimals = 18;
+    string private _name = "KapMine";
+    string private _symbol = "KAP";
+    uint8 private _decimals = 9;
 
     /**
      * @dev Sets the values for {name} and {symbol}.
      *
-     * The defaut value of {decimals} is 18. To select a different value for
+     * The defaut value of {decimals} is 9. To select a different value for
      * {decimals} you should overload it.
      *
      * All two of these values are immutable: they can only be set once during
