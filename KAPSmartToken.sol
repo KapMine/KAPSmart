@@ -21,7 +21,7 @@ contract GoMiningToken is Ownable, Pausable, IERC20, IERC20Metadata {
     string private _name = "KapMine";
     string private _symbol = "KAP";
     uint8 private _decimals = 9;
-
+    
     /**
      * @dev Sets the values for {name} and {symbol}.
      *
