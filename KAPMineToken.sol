@@ -18,7 +18,7 @@ contract KAPSmartToken is Ownable, Pausable, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
 
-    string private _name = "KapMine";
+    string private _name = "Kapmine";
     string private _symbol = "KAP";
     uint8 private _decimals = 9;
     
