@@ -8,7 +8,7 @@ import "./Ownable.sol";
 import "./Pausable.sol";
 import "./SafeMath.sol";
 
-contract KAPSmartToken is Ownable, Pausable, IERC20, IERC20Metadata {
+contract KAPMineToken is Ownable, Pausable, IERC20, IERC20Metadata {
     using SafeMath for uint256;
 
 
